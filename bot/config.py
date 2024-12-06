@@ -5,7 +5,7 @@ class Config:
 
     API_ID = int(os.environ.get("API_ID"))
     API_HASH = os.environ.get("API_HASH")
-    SESSION_NAME = os.environ.get("SESSION_NAME", "Sample Generator Bot")
+    SESSION_NAME = os.environ.get("SESSION_NAME", "SampleGenerator_WMFBot")
     BOT_TOKEN = os.environ.get("BOT_TOKEN")
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
     DATABASE_URL = os.environ.get("DATABASE_URL")
